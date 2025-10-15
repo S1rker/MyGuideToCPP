@@ -2,5 +2,6 @@
     "C_Cpp.errorSquiggles": "enabled",
     "files.associations": {
         "locale": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "/Users/cartermoon/projects/MyGuideToCPP/src/login"
 }

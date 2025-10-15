@@ -2,8 +2,8 @@
 #include <string>
 #include <vector>
 // Using MySQL++
-#include <mysql++/mystring.h>
-#include <mysql++/mysql++.h>
+#include <mystring.h>
+#include <mysql++.h>
 
 using Records = std::vector<std::string>;
 

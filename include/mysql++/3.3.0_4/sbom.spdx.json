@@ -1,0 +1,261 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "name": "SBOM-SPDX-mysql++-3.3.0",
+  "creationInfo": {
+    "created": "2025-09-09T18:12:32Z",
+    "creators": [
+      "Tool: https://github.com/Homebrew/brew@4.6.10"
+    ]
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://formulae.brew.sh/spdx/mysql++-3.3.0.json",
+  "documentDescribes": [
+    "SPDXRef-Archive-mysql++-src",
+    "SPDXRef-Package-SPDXRef-ca-certificates-2025-09-09",
+    "SPDXRef-Package-SPDXRef-openssl@3-3.5.2",
+    "SPDXRef-Package-SPDXRef-lz4-1.10.0",
+    "SPDXRef-Package-SPDXRef-xz-5.8.1",
+    "SPDXRef-Package-SPDXRef-zstd-1.5.7",
+    "SPDXRef-Package-SPDXRef-mariadb-connector-c-3.4.7",
+    "SPDXRef-Compiler",
+    "SPDXRef-Bottle-mysql++"
+  ],
+  "files": [],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Archive-mysql++-src",
+      "name": "mysql++",
+      "versionInfo": "3.3.0",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "builtDate": "2021-04-28 22:40:43 UTC",
+      "licenseConcluded": "LGPL-2.1-or-later",
+      "downloadLocation": "https://tangentsoft.com/mysqlpp/releases/mysql++-3.3.0.tar.gz",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [],
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "449cbc46556cc2cc9f9d6736904169a8df6415f6960528ee658998f96ca0e7cf"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-ca-certificates-2025-09-09",
+      "name": "ca-certificates",
+      "versionInfo": "2025-09-09",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "MPL-2.0",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:a74a274a402f29cff2e1bb595a5253c20d7503a086175d57f7081821540203ce",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a74a274a402f29cff2e1bb595a5253c20d7503a086175d57f7081821540203ce"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/ca-certificates@2025-09-09",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-openssl@3-3.5.2",
+      "name": "openssl@3",
+      "versionInfo": "3.5.2",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "Apache-2.0",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:4066d7983ad535f0e460fc340f343f9de933073882470d5ea968b18698b2777c",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4066d7983ad535f0e460fc340f343f9de933073882470d5ea968b18698b2777c"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/openssl@3@3.5.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-lz4-1.10.0",
+      "name": "lz4",
+      "versionInfo": "1.10.0",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "BSD-2-Clause",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/lz4/blobs/sha256:5bd143b7b784989e549637ea4e484af85ba481e640dde69bc35f3843ae25abc6",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5bd143b7b784989e549637ea4e484af85ba481e640dde69bc35f3843ae25abc6"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/lz4@1.10.0",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-xz-5.8.1",
+      "name": "xz",
+      "versionInfo": "5.8.1",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "0BSD AND GPL-2.0-or-later",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/xz/blobs/sha256:dcd7823f2624cbcd08f55c232097a79300c7d76ab5969004db1a4785c6c0cd87",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "dcd7823f2624cbcd08f55c232097a79300c7d76ab5969004db1a4785c6c0cd87"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/xz@5.8.1",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-zstd-1.5.7",
+      "name": "zstd",
+      "versionInfo": "1.5.7",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "(BSD-3-Clause OR GPL-2.0-only) AND BSD-2-Clause AND MIT",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/zstd/blobs/sha256:55a4e0a4a92f5cf4885295214914de4aefad2389884085185e9ce87b4edae946",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "55a4e0a4a92f5cf4885295214914de4aefad2389884085185e9ce87b4edae946"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/zstd@1.5.7",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-mariadb-connector-c-3.4.7",
+      "name": "mariadb-connector-c",
+      "versionInfo": "3.4.7",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "LGPL-2.1-or-later",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/mariadb-connector-c/blobs/sha256:3b6dcf8daeab90e2b0ff613e2163de547888cf0e9b583bd38ed5a25bbd47b0c0",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3b6dcf8daeab90e2b0ff613e2163de547888cf0e9b583bd38ed5a25bbd47b0c0"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/mariadb-connector-c@3.4.7",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Compiler",
+      "name": "clang",
+      "versionInfo": "26.0",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "checksums": [],
+      "externalRefs": []
+    },
+    {
+      "SPDXID": "SPDXRef-Bottle-mysql++",
+      "name": "mysql++",
+      "versionInfo": "3.3.0",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "builtDate": "2021-04-28 22:40:43 UTC",
+      "licenseConcluded": "LGPL-2.1-or-later",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/mysqlxx/blobs/sha256:5c39095c830382c0de716906058fdfc99dc8ba77c57b2682ffab177767790c21",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/homebrew/core/mysql++@3.3.0",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5c39095c830382c0de716906058fdfc99dc8ba77c57b2682ffab177767790c21"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-SPDXRef-ca-certificates-2025-09-09",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-Bottle-mysql++"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-SPDXRef-openssl@3-3.5.2",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-Bottle-mysql++"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-SPDXRef-lz4-1.10.0",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-Bottle-mysql++"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-SPDXRef-xz-5.8.1",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-Bottle-mysql++"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-SPDXRef-zstd-1.5.7",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-Bottle-mysql++"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-SPDXRef-mariadb-connector-c-3.4.7",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-Bottle-mysql++"
+    },
+    {
+      "spdxElementId": "SPDXRef-File-mysql++",
+      "relationshipType": "PACKAGE_OF",
+      "relatedSpdxElement": "SPDXRef-Archive-mysql++-src"
+    },
+    {
+      "spdxElementId": "SPDXRef-Compiler",
+      "relationshipType": "BUILD_TOOL_OF",
+      "relatedSpdxElement": "SPDXRef-Package-mysql++-src"
+    }
+  ]
+}

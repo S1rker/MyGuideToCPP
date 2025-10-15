@@ -3,8 +3,8 @@
         {
             "name": "Mac",
             "includePath": [
-                "/opt/homebrew/cellar/mysql/9.4.0_3/include",
-                "/opt/homebrew/cellar/mysql++/3.3.0_4/include",
+                "/opt/homebrew/cellar/mysql/9.4.0_3/include/mysql",
+                "/opt/homebrew/cellar/mysql++/3.3.0_4/include/mysql++",
                 "/opt/homebrew/cellar/mysql/9.4.0_3/include/mysql"
                 
             ],

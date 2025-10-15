@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/cartermoon/projects/MyGuideToCPP/build",
+  "command": "/usr/bin/clang++ -I/Users/cartermoon/projects/MyGuideToCPP/src/login/../../include -I/Users/cartermoon/projects/MyGuideToCPP/src/login/../../include/mysql/9.4.0_3/include/mysql -I/Users/cartermoon/projects/MyGuideToCPP/src/login/../../include/mysql++/3.3.0_4/include/mysql++ -g -std=gnu++2b -arch arm64 -o CMakeFiles/login.dir/login.cpp.o -c /Users/cartermoon/projects/MyGuideToCPP/src/login/login.cpp",
+  "file": "/Users/cartermoon/projects/MyGuideToCPP/src/login/login.cpp",
+  "output": "/Users/cartermoon/projects/MyGuideToCPP/build/CMakeFiles/login.dir/login.cpp.o"
+}
+]
