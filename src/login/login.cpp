@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
-// Using MySQL++ instead of sqlite3
+// Using MySQL++
 #include <mysql++/mystring.h>
 #include <mysql++/mysql++.h>
 
